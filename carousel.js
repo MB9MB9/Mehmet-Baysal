@@ -45,7 +45,7 @@
 //ürünlerin(cards) yapısı
     const cardsHTML  = self.products
       .map( (p) => {
-        //sadece indirim olan ürünleri gösteriyorum. Zam almış ürünü göstermiyorum eski fiyatını
+        //sadece indirim olan ürünleri gösteriyorum. Zam almış ürünün göstermiyorum eski fiyatını
         const discount = p.original_price > p.price
             ? Math.round(((p.original_price - p.price) / p.original_price) * 100): 0;
         const isFav = favs.includes(String(p.id));
