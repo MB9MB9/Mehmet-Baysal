@@ -13,7 +13,7 @@
       "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23ff7a00' stroke='%23ff7a00' stroke-width='0' viewBox='0 0 24 24'><path d='M12 21s-6-4.35-9-7.73C-1 8.27 2.5 2 8 2c2.53 0 4 1.5 4 1.5S13.47 2 16 2c5.5 0 9 6.27 5 11.27C18 16.65 12 21 12 21z'/></svg>",
     products: [],
   };
-// ebebek anasayfa dışında çalıştırmak istersen wron page çıktısı alırsın
+// ebebek anasayfa dışında çalıştırmak istersen wrong page çıktısı alırsın
   const init = async() => {
     if (location.pathname !==  "/" &&  location.pathname !== "") {
       console.log("wrong page");
